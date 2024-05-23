@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      hr {
+        height: 100vh;
+        background: #f8f8f8;
+        margin: 0;
+        border: 0;
+      }
+
+      div {
+        background: #ffd200;
+        padding: 10px;
+        margin: 0;
+        line-height: 1;
+        display: flex;
+      }
+
+      div a {
+        background: #ffd200;
+        padding: 10px;
+        margin: 0;
+        line-height: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <a href="#one">One</a>
+      <a href="#two">Two</a>
+      <div id="top"></div>
+    </div>
+
+    <hr />
+
+    <div id="one">First Element</div>
+    <a href="#top">Jump to Top</a>
+
+    <hr />
+
+    <div id="two">Second Element</div>
+    <a href="#top">Jump to Top</a>
+
+    <hr />
+  </body>
+</html>
