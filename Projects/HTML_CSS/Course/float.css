@@ -1,0 +1,27 @@
+
+.right {
+
+    float: inline-end;
+}
+
+
+.left {
+
+    width: 40%;
+    float: inline-start;
+
+    /* padding: 0% 0% 5% 0%; */
+}
+sectionFloat {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    width: 100%;
+    float: left;
+  }
+
+
+  divFloat {
+    margin: 5px;
+    width: 50px;
+    height: 150px;
+  }
